@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applova - Restaurant Competitor Analysis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        slate: {
+                            800: '#1e293b',
+                        },
+                        indigo: {
+                            600: '#4f46e5',
+                            700: '#4338ca',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-[#f9fafb] min-h-screen flex flex-col">
+    <main class="flex-grow flex items-center justify-center px-4 sm:px-6 lg:px-8 py-[15vh]">
+        <div class="max-w-[720px] w-full text-center">
+            <h1 class="text-4xl sm:text-5xl font-semibold text-slate-800 mb-6">
+                Applova — See How Your Restaurant Stacks Up Against Competitors
+            </h1>
+            <p class="text-lg sm:text-xl text-slate-800/70 mb-8">
+                Instantly uncover gaps, seize high-value keywords, and outrank the competition
+            </p>
+            <a href="/dashboard/" 
+               class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-8 py-3 rounded-full shadow-sm hover:shadow-lg transition-all duration-200">
+                Run Competitor Analysis
+            </a>
+        </div>
+    </main>
+    <footer class="py-4 text-center text-gray-500 text-sm">
+        © 2025 Applova
+    </footer>
+</body>
+</html> 

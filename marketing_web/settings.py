@@ -54,7 +54,7 @@ ROOT_URLCONF = 'marketing_web.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'marketing_web' / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
