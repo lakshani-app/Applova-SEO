@@ -20,6 +20,6 @@ from . import views
 
 urlpatterns = [
     path('', views.landing_page, name='landing'),
-    #path('dashboard/', include('dashboard.urls')),  # Assuming dashboard app exists
+    path('dashboard/', include('dashboard.urls')),  # Assuming dashboard app exists
     path('admin/', admin.site.urls),
 ]
